@@ -100,10 +100,10 @@ flag = 0
 turno  = "Player X"
 import tkinter as tk
 
-texto = tk.Label(main, text="Tic Tac Toe",font=("arial", 30), bg="#a7f9ff", width=10)
+texto = tk.Label(main, text="Tic Tac Toe",font=("arial", 30), bg="#a7f9ff", width=9)
 texto.grid(row=0, column=0, columnspan=3)
 
-textoturno = tk.Label(main, text="Player X Starts",font=("arial", 25), bg="#e0ffa7", width=10)
+textoturno = tk.Label(main, text="Player X Starts",font=("arial", 27), bg="#e0ffa7", width=12)
 textoturno.grid(row=1, column=0, columnspan=3)
 
 button1 = Button(main,text="", font=("arial", 60,"bold"), bg="#e0ffa7", fg="white", width=3, command=lambda: ButtonClick(button1, textoturno))
