@@ -10,19 +10,21 @@ Requirements to install:
 
 Steps:
 1. Download the project:
-   Download or clone this repo and open the project folder. Make sure the file containing the game is inside of the folder, then, in the commands below, replace tic_tac_toe.py with the actual name of the main python file IF IT IS DIFFERENT PLS :)
-2. Open a CMD terminal:
+   Download or clone this repo and open the project folder.
+    Make sure the file containing the game is inside of the folder, then, in the commands below, replace tic_tac_toe.py with the actual       name of the main python file IF IT IS DIFFERENT PLS :)
+3. Open a CMD terminal:
    On the terminal, run the following command:
    pip install pyinstaller
    A message should appear if PyInstaller was installed correctly or if it was already downloaded.
-3. Build the executable:
+4. Build the executable:
    On the terminal, run:
    pyinstaller--onefile--windowed tic_tac_toe.py
    Change tic_tac_toe if necessary (same as before) ONLY DO IF NEEDED PLS :)
    PyInstaller will create several files and folders, including the executable.
-4. Find and run the executable:
+5. Find and run the executable:
    After the build finishes, open the project folder and inside of the sub-folder "dist" the .exe file will be there for you to run,         double click to run.
-NOTE: If you do not want to follow those instructions, click on the demo button in Macondo to go to the release page of the repo and download the.exe file from there(A black console window MAY appear when downloaded from the release)
+# NOTE:
+ If you do not want to follow those instructions, click on the demo button in Macondo to go to the release page of the repo and download the.exe file from there(A black console window MAY appear when downloaded from the release)
 # Why did I decide on this project?
  I made this lil game cause im a funny lil fella who likes to make funny lil projects. I made this experiment by using python, and i used functions such as "grid", i also worked on making a functional reset button, for which i used the reset command. I made this project because i want to learn how to code, and also because i was, as we say in Colombia, desparchado :D
 
