@@ -1,7 +1,7 @@
 # Tic tac toe
 # How do i set it up?
 To run the game locally on your PC, you will need to open the release link on the demo button in Macondo, download the .exe file and run it, the game will open(a black screen may appear, didnt know how to fix that) 
-# How do i download the exe file of game from the code in Visual Studio code?
+# How do i download the exe file of the game from the code in Visual Studio code/ cmd terminal?
 Requirements to install:
 -Python 3
 -PyInstaller
